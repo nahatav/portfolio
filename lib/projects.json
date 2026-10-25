@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Sleep Mode",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Detecting sleep from privacy-safe phone sensors for DSC 80 at UC San Diego."
+  },
+  {
+    "title": "Personal Portfolio Site",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Interactive personal portfolio and project showcase built with HTML, CSS Grid, and modular JavaScript for DSC 106."
+  },
+  {
+    "title": "MedARC Fact Verifier",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Agentic medical fact verification pipeline with custom scrapers for clinical evidence retrieval and claim decomposition."
+  },
+  {
+    "title": "Surgical Video Adaptation",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Inference time adaptation framework for surgical video language models evaluated on procedural video benchmarks."
+  },
+  {
+    "title": "Omni-Embedding Benchmark",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Cross-modal retrieval and classification evaluation tasks across text, speech, images, and audio embeddings."
+  },
+  {
+    "title": "PsychLing Reading Study",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Comparison of language model predictions with human eye-movement and reading behavior datasets."
+  },
+  {
+    "title": "HydroTuring Evaluation",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Evaluating physical consistency in hydrological models through comparisons of learned and physics-based simulations."
+  },
+  {
+    "title": "Pathology Report RAG",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Retrieval augmented generation system designed to summarize and query structured clinical pathology reports."
+  },
+  {
+    "title": "Crab Pulsar Analysis",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Statistical analysis of giant pulse emission rates and frequency distributions from radio telescope observations."
+  },
+  {
+    "title": "Gitlytics Analytics",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Full-stack web application using Flask, React, and PostgreSQL to visualize repository collaboration metrics."
+  },
+  {
+    "title": "Lorem ipsum dolor sit.",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "title": "Amet consectetur adipiscing elit.",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+]

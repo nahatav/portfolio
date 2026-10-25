@@ -112,8 +112,30 @@ form button {
   grid-row: span 3;
 }
 
-.projects article h2 {
+.projects article h2,
+.projects article h3 {
   margin: 0;
+}
+
+/* GitHub profile stats grid */
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em 1em;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: oklch(60% 3% 200);
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 /* CV page styling */
