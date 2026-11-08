@@ -111,8 +111,20 @@ function updateTooltipVisibility(isVisible) {
 
 function updateTooltipPosition(event) {
   const tooltip = document.getElementById('commit-tooltip');
-  tooltip.style.left = `${event.clientX + 14}px`;
-  tooltip.style.top = `${event.clientY + 14}px`;
+  const pad = 14;
+  const rect = tooltip.getBoundingClientRect();
+  let x = event.clientX + pad;
+  let y = event.clientY + pad;
+
+  if (x + rect.width > window.innerWidth - pad) {
+    x = event.clientX - rect.width - pad;
+  }
+  if (y + rect.height > window.innerHeight - pad) {
+    y = event.clientY - rect.height - pad;
+  }
+
+  tooltip.style.left = `${Math.max(pad, x)}px`;
+  tooltip.style.top = `${Math.max(pad, y)}px`;
 }
 
 function isCommitSelected(selection, commit) {
