@@ -117,6 +117,87 @@ form button {
   margin: 0;
 }
 
+.projects article p {
+  margin: 0;
+}
+
+.projects article .project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: oklch(60% 3% 200);
+  margin-top: 0.3em;
+}
+
+/* Lab 5: Pie chart, legend, and search bar */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+#projects-pie-plot path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+#projects-pie-plot path.selected {
+  fill: var(--color);
+}
+
+.legend {
+  flex: 1;
+  min-width: 15em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid oklch(50% 10% 200 / 40%);
+  border-radius: 0.25em;
+  list-style: none;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  cursor: pointer;
+}
+
+.legend .swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 0.25em;
+  flex-shrink: 0;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 0.5em 0.75em;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  border: 1px solid oklch(50% 10% 200 / 40%);
+  border-radius: 0.25em;
+}
+
 /* GitHub profile stats grid */
 #profile-stats dl {
   display: grid;
