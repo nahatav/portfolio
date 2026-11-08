@@ -250,3 +250,103 @@ time {
 #skills li {
   margin-bottom: 0.5em;
 }
+
+/* Lab 6: Meta page stats, scatterplot, tooltip, and brushing */
+dl.stats {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 0.5em 1em;
+  margin: 1.5em 0;
+}
+
+dl.stats dt {
+  grid-row: 1;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: oklch(60% 3% 200);
+}
+
+dl.stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 175%;
+  font-weight: bold;
+}
+
+#chart svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.gridlines line {
+  stroke: oklch(50% 10% 200 / 20%);
+}
+
+.gridlines path {
+  display: none;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 0.75em;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  margin: 0;
+  color: oklch(60% 3% 200);
+  font-weight: 500;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: color-mix(in oklch, canvas, transparent 15%);
+  backdrop-filter: blur(6px);
+  padding: 0.75em 1em;
+  border-radius: 0.4em;
+  border: 1px solid oklch(50% 10% 200 / 30%);
+  box-shadow: 0 4px 14px oklch(0% 0 0 / 18%);
+  z-index: 10;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: currentColor;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
