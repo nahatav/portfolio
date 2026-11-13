@@ -1,62 +1,79 @@
 [
   {
+    "title": "Bikewatching",
+    "year": "2026",
+    "image": "images/bikewatching.png",
+    "url": "https://nahatav.github.io/bikewatching/",
+    "description": "Interactive geospatial visualization of Boston and Cambridge bike lanes and Bluebikes station traffic patterns across times of day using Mapbox GL JS and D3."
+  },
+  {
     "title": "Sleep Mode",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/sleep-mode",
     "description": "Detecting sleep from privacy-safe phone sensors for DSC 80 at UC San Diego."
   },
   {
     "title": "Personal Portfolio Site",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://nahatav.github.io/portfolio/",
     "description": "Interactive personal portfolio and project showcase built with HTML, CSS Grid, and modular JavaScript for DSC 106."
   },
   {
     "title": "MedARC Fact Verifier",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/amfv",
     "description": "Agentic medical fact verification pipeline with custom scrapers for clinical evidence retrieval and claim decomposition."
   },
   {
     "title": "Surgical Video Adaptation",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/mvaa2026-mitral-valve-challenge",
     "description": "Inference time adaptation framework for surgical video language models evaluated on procedural video benchmarks."
   },
   {
     "title": "Omni-Embedding Benchmark",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/mteb",
     "description": "Cross-modal retrieval and classification evaluation tasks across text, speech, images, and audio embeddings."
   },
   {
     "title": "PsychLing Reading Study",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/PsychLing-101",
     "description": "Comparison of language model predictions with human eye-movement and reading behavior datasets."
   },
   {
     "title": "HydroTuring Evaluation",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav/every_eval_ever",
     "description": "Evaluating physical consistency in hydrological models through comparisons of learned and physics-based simulations."
   },
   {
     "title": "Pathology Report RAG",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav",
     "description": "Retrieval augmented generation system designed to summarize and query structured clinical pathology reports."
   },
   {
     "title": "Crab Pulsar Analysis",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav",
     "description": "Statistical analysis of giant pulse emission rates and frequency distributions from radio telescope observations."
   },
   {
     "title": "Gitlytics Analytics",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "url": "https://github.com/nahatav",
     "description": "Full-stack web application using Flask, React, and PostgreSQL to visualize repository collaboration metrics."
   },
   {
